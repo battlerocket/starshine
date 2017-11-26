@@ -1,1 +1,27 @@
-
+<style>
+            .applications {background-color: #3d3d3d; color: #e6e6e6; height: 10px;width: 120px;font-weight:bold; text-align:center; text-transform: uppercase;margin-top: -10px;opacity:0;position:relative;transition: .5s;}
+            .applications a {font-family: helvetica; color: #e6e6e6; font-size: 10px; text-transform: uppercase; font-weight:bold;text-decoration:none;}
+            .applications:hover {background-color: #3d3d3d; color: #e6e6e6;height: 10px;width: 120px;font-weight:bold; text-align:center; text-transform: uppercase;margin-top: -10px;opacity:1;position:relative;transition: .5s;}
+            .bentotag {margin-top: 10px; margin-left: 10px; font-family: helvetica; font-size: 15px; color: #e6e6e6;font-weight:bold;text-transform: uppercase;}
+            .nametag {background-color: #3d3d3d; color: #e6e6e6; height: 10px;width: 120px; padding: 10px;font-weight:bold;text-align:center;text-transform: uppercase;margin-bottom: 5px;line-height: 10px;}
+            .sesamehead {position: fixed; top: 0px; left: 0px; right: 0px;background-color: #3d3d3d;color: #e6e6e6;height: 60px;text-align: center;}
+            .sesametag {font-family: helvetica; font-size: 25px; text-transform: uppercase; font-weight:bold;letter-spacing: -1px;}
+            .sesamep {position:fixed; top: 100px; bottom: 50%;left: 155px; right: 50%;background-color: #3d3d3d;}
+            .sesamepin {position:fixed; top: 100px; right: 50%; left: 155px; bottom: 50%;margin: 30px 10px 10px 10px;background-color: #e6e6e6;padding: 0px 10px 0px 10px;font-family: helvetica; font-size: 10px;text-align: justify; overflow:auto;}
+            .sesameb {position:fixed; top: 100px; bottom: 50%;left: 50%; right: 10px;background-color: #3d3d3d; margin-left: 10px;}
+            .sesamebin {position:fixed; top: 100px; left: 50%; right: 10px; bottom: 50%;margin: 30px 10px 10px 20px;background-color: #e6e6e6;padding: 0px 10px 0px 10px;font-family: helvetica; font-size: 10px;text-align: justify; overflow:auto;}
+            .sesamer {position:fixed; top: 50%; bottom: 25px;left: 155px; right: 65%;background-color: #3d3d3d;margin-top: 40px;}
+            .sesamerin {position:fixed; top: 50%; right: 65%; left: 155px; bottom: 25px;margin: 70px 10px 10px 10px;background-color: #e6e6e6;padding: 0px 10px 0px 10px;font-family: helvetica; font-size: 10px;text-align: justify; overflow:auto;}
+            .sesamehcei {position:fixed; top: 50%; bottom: 25px;left: 35%;right: 35%;background-color: #3d3d3d;margin-top: 40px;margin-left: 10px;}
+            .sesamehceiin {position:fixed; top: 50%; left: 35%; right: 35%;bottom: 25px;margin: 70px 10px 10px 20px;background-color: #e6e6e6;padding: 0px 10px 0px 10px;font-family: helvetica; font-size: 10px;text-align: justify; overflow:auto;}
+            .sesament {position:fixed; top: 50%; bottom: 25px;left: 65%; right: 10px;background-color: #3d3d3d; margin-left: 10px;margin-top: 40px;}
+            .sesamentin {position:fixed; top: 50%; left: 65%; right: 10px; bottom: 25px;margin: 70px 10px 10px 20px;background-color: #e6e6e6;padding: 0px 10px 0px 10px;font-family: helvetica; font-size: 10px;text-align: justify; overflow:auto;}
+            .sname {margin-left: 155px;margin-top: 3px;font-family: helvetica; font-size: 35px; font-weight:bold;text-transform: uppercase;}
+            .salias {font-size: 10px;position:fixed; top: 40px; left: 155px; right: 0px; text-align:center;}
+            .sicon1 {position:fixed; top: -10px; left: 5px;border: 20px solid #3d3d3d;border-radius: 100px;}
+            .sicon2 {position:fixed; top: 10px; left: 135px;border-radius: 100px;height: 25px; width: 25px;}
+            .sicon3 {position:fixed; top: 35px; left: 140px;height: 25px; width: 25px; border-radius: 100px;border: 7px solid #3d3d3d;}
+            .sdossier {position: fixed; top: 135px; left: 5px;bottom: 5px;font-family: helvetica; font-size: 10px;overflow:hidden;}
+            .sbasics {position:fixed; top:70px; left: 155px;bottom: 50%;color: #3d3d3d;}
+            .sdetails {position:fixed; top:50%; left: 155px;bottom: 25px;color: #3d3d3d;margin-top: 10px;}
+		</style>
